@@ -1,0 +1,50 @@
+@font-face {
+    font-family: cedarville-font-family;
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+    font-weight: normal;
+}
+
+body {
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+.title {
+
+    font-size: 40px;
+    word-spacing: 3px;
+    display: block;
+    font-weight: normal;
+
+}
+
+.uiRow {
+
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.uiRow .uiCol {
+
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+
+.contactInformation {
+
+    font-size: 20px;
+    color: #303C55;
+
+
+}

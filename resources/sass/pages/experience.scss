@@ -1,0 +1,97 @@
+#experience {
+
+    .switcher {
+
+        width: 200px;
+
+        ul {
+
+            font-size: 0;
+            padding: 0;
+            margin: 0;
+
+            li {
+
+                list-style-type: none;
+
+                a {
+
+                    font-size: 14px;
+                    display: block;
+                    color: $slate;
+                    padding: 15px 20px;
+                    border-left: 2px solid $lightestNavy;
+                    letter-spacing: 0.5px;
+                    cursor: pointer;
+                    transition: ease .3s;
+
+                    &:hover {
+
+                        color: $green;
+                        background-color: $lightNavy;
+                        text-decoration: none;
+
+                    }
+
+                    &.active {
+
+                        color: $green;
+                        border-color: $green;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .showPanel {
+
+        padding: 0 20px;
+        display: none;
+
+        &.experiencePaneShow { display: block; }
+
+        .experienceTitle {
+
+            color: $lightSlate;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            span { color: $green; }
+
+        }
+
+        .experienceDate { color: $slate; }
+
+        ul {
+
+            margin: 20px 0 0 0;
+            padding: 0;
+
+            li {
+
+                position: relative;
+                list-style-type: none;
+                padding: 0 0 10px 30px;
+
+                &::before {
+
+                    content: "▹";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    color: $green;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

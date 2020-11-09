@@ -1,0 +1,61 @@
+.sidebar {
+
+    width: 100px;
+
+    #sidebarContent {
+
+        width: 100px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+        .bottom {
+
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+
+            ul {
+
+                margin: 0;
+                padding: 0;
+
+                li {
+
+                    text-align: center;
+                    margin-bottom: 20px;
+
+                    a {
+
+                        color: $lightSlate;
+                        display: inline-block;
+                        font-size: 20px;
+
+                    }
+
+                }
+
+                &::after {
+
+                    content: "";
+                    display: block;
+                    width: 1px;
+                    margin: 0 auto;
+                    height: 80px;
+                    background-color: $slate;
+                    opacity: 0.7;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

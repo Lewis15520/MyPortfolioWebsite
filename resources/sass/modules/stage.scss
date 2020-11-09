@@ -1,0 +1,52 @@
+.centerStage {
+
+    width: 960px;
+    margin: 0 auto;
+
+    p {
+
+        margin: 0;
+    }
+
+    .title {
+
+        color: $lightSlate;
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 50px;
+
+
+        span {
+
+            margin-right: 10px;
+            font-size: 22px;
+            color: $green;
+
+        }
+
+        &::after {
+
+            content: "";
+            margin-left: 20px;
+            display: inline-block;
+            height: 1px;
+            width: 300px;
+            background-color: $lightestNavy;
+            vertical-align: middle;
+
+        }
+
+    }
+
+    .actions {
+
+        margin-top: 40px;
+
+        a {
+
+            padding: 12px 20px;
+
+        }
+
+    }
+}

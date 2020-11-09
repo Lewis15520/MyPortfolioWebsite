@@ -1,0 +1,50 @@
+.modal-content {
+
+    border: none;
+    border-radius: 3px;
+
+}
+
+
+.simpleModal {
+
+    .modal-header { border-bottom: 0; }
+    .modal-footer { border-top: 0; }
+
+    .modal-header {
+
+        text-align: center;
+        padding: 25px 0;
+
+        h5 { margin: 0 auto ; }
+
+    }
+
+    .modal-body {
+
+        padding: 15px 50px;
+
+        p {
+
+
+
+        }
+
+    }
+
+    .modal-footer {
+
+        padding: 25px;
+        text-align: center;
+        display: block;
+
+        button {
+
+            min-width: 100px;
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,28 @@
+// Import bootstrap and config options
+$grid-gutter-width: 10px !default;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import variables
+@import 'variables/color';
+
+// Import modules
+@import
+'modules/elements',
+'modules/ui_grid',
+'modules/sizing',
+'modules/buttons',
+'modules/bootstrap',
+'modules/stage';
+
+// Import partials
+@import
+'partials/header',
+'partials/sidebar';
+
+// Import pages
+@import
+'pages/intro',
+'pages/about',
+'pages/experience',
+'pages/get_in_touch',
+'pages/footer';

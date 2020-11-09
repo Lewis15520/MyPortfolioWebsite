@@ -1,0 +1,17 @@
+.uiRow {
+
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    box-sizing: border-box;
+
+    .uiCol {
+
+        display: table-cell;
+        vertical-align: middle;
+        box-sizing: border-box;
+        position: relative;
+
+    }
+
+}

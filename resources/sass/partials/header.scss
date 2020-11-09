@@ -1,0 +1,81 @@
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0;
+    z-index: 2;
+    backdrop-filter: blur(0);
+    box-shadow: 0 10px 30px -10px transparent;
+    transition: ease .5s;
+
+    .logo {
+
+        width: 100px;
+        text-align: center;
+
+        img {
+
+            display: block;
+            width: 25px;
+            height: 30px;
+            margin: 0 auto;
+
+        }
+
+    }
+
+    ul {
+
+        margin: 0;
+        padding: 0 50px 0 0;
+
+        li {
+
+            display: inline-block;
+            margin-left: 25px;
+
+            a {
+
+                font-size: 14px;
+                color: $slate;
+                transition: ease .3s;
+
+                span {
+
+                    margin-right: 5px;
+                    color: $green;
+
+                }
+
+                &:hover {
+
+                    color: $lightSlate;
+                    text-decoration: none;
+
+                }
+
+                &.dftButton {
+
+                    padding: 7px 7px;
+                    min-width: 75px;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    &.scrolled {
+
+        padding: 15px 0;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 30px -10px rgba(2,12,27,0.7);
+
+    }
+
+}
