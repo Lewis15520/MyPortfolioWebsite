@@ -10938,7 +10938,7 @@ a {
 }
 
 .dftPadding {
-  padding: 0 100px 150px 0;
+  padding: 0 0 150px 0;
 }
 
 .dftButton {
@@ -11006,26 +11006,46 @@ a {
 }
 
 .centerStage .title {
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.centerStage .title > h3 {
   color: #a8b2d1;
   font-size: 26px;
   font-weight: 600;
-  margin-bottom: 50px;
+  display: inline;
+  align-items: center;
+  background-color: #0a192f;
+  z-index: 2;
+  padding-right: 15px;
+  height: 100%;
 }
 
-.centerStage .title span {
+.centerStage .title > h3 span {
   margin-right: 10px;
   font-size: 22px;
   color: #64ffda;
 }
 
-.centerStage .title::after {
-  content: "";
-  margin-left: 20px;
-  display: inline-block;
+.centerStage .title .splitter {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.centerStage .title .splitter span {
   height: 1px;
-  width: 300px;
+  display: block;
+  position: absolute;
+  width: 100%;
   background-color: #303C55;
-  vertical-align: middle;
+  z-index: -2;
 }
 
 .centerStage .actions {
@@ -11043,7 +11063,7 @@ header {
   width: 100%;
   box-sizing: border-box;
   padding: 40px 0;
-  z-index: 2;
+  z-index: 5;
   -webkit-backdrop-filter: blur(0);
           backdrop-filter: blur(0);
   box-shadow: 0 10px 30px -10px transparent;
@@ -11165,7 +11185,7 @@ header.scrolled {
 }
 
 #intro p:last-of-type {
-  width: 45%;
+  width: 50%;
 }
 
 #intro h1,
@@ -11202,8 +11222,10 @@ header.scrolled {
 
 #about img {
   display: block;
-  margin-left: 50px;
-  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: auto;
   border-radius: 5px;
   box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.5);
@@ -11229,6 +11251,9 @@ header.scrolled {
 #about ul li::before {
   content: "\25B9";
   position: absolute;
+  display: flex;
+  height: 100%;
+  align-items: center;
   left: 0;
   top: 0;
   color: #64ffda;
@@ -11312,6 +11337,15 @@ header.scrolled {
   color: #64ffda;
 }
 
+#getInTouch {
+  padding-bottom: 0;
+}
+
+#getInTouch .centerStage {
+  background-color: #303C55;
+  padding: 100px 0;
+}
+
 #getInTouch h1 {
   color: #a8b2d1;
   margin-bottom: 30px;
@@ -11324,6 +11358,6 @@ header.scrolled {
 
 footer {
   text-align: center;
-  padding-right: 100px;
+  margin: 50px 0;
 }
 

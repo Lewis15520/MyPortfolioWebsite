@@ -10,8 +10,10 @@
     img {
 
         display: block;
-        margin-left: 50px;
-        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
         width: auto;
         border-radius: 5px;
         -webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.5);
@@ -43,6 +45,9 @@
 
                 content: "▹";
                 position: absolute;
+                display: flex;
+                height: 100%;
+                align-items: center;
                 left: 0;
                 top: 0;
                 color: $green;

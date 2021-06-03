@@ -9,7 +9,7 @@
                 <li><a href="#experience"><span>02.</span>Experience</a></li>
                 <li><a href="#"><span>03.</span>Work</a></li>
                 <li><a href="#"><span>04.</span>Contact</a></li>
-                <li><a class="dftButton" href="{{ route('cv') }}">My Resume</a></li>
+                <li><a class="dftButton" href="{{ route('cv') }}" target="_blank">My Resume</a></li>
             </ul>
         </div>
     </div>

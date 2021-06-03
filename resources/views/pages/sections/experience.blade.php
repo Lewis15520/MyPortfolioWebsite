@@ -2,7 +2,10 @@
     <div class="uiCol">
         <div class="centerStage">
 
-            <h3 class="title"><span>02.</span>My Commercial Experience</h3>
+            <div class="title">
+                <h3><span>02.</span>My Commercial Experience</h3>
+                <div class="splitter"><span></span></div>
+            </div>
 
             <div class="uiRow">
                 <div class="uiCol switcher align-top">
