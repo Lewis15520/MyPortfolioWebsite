@@ -15,7 +15,7 @@
         &:first-child {
 
             color: $green;
-            word-spacing: 3px;
+            word-spacing: 1px;
             margin-bottom: 20px;
 
         }
@@ -51,7 +51,8 @@
 
         a {
 
-            word-spacing: 5px;
+            word-spacing: 3px;
+            font-weight: 600;
             letter-spacing: 0.5px;
             padding: 15px 30px;
             font-size: 15px;

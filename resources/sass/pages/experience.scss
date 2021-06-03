@@ -50,7 +50,7 @@
 
     .showPanel {
 
-        padding: 0 20px;
+        padding: 0 0 0 20px;
         display: none;
 
         &.experiencePaneShow { display: block; }
@@ -65,7 +65,12 @@
 
         }
 
-        .experienceDate { color: $slate; }
+        .experienceDate {
+
+            color: $slate;
+            font-size: 13px;
+
+        }
 
         ul {
 

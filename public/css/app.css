@@ -11096,6 +11096,7 @@ header ul li a {
   font-size: 14px;
   color: #8892b0;
   transition: ease 0.3s;
+  font-weight: 600;
 }
 
 header ul li a span {
@@ -11111,6 +11112,7 @@ header ul li a:hover {
 header ul li a.dftButton {
   padding: 7px 7px;
   min-width: 75px;
+  font-weight: 600;
 }
 
 header.scrolled {
@@ -11180,7 +11182,7 @@ header.scrolled {
 
 #intro p:first-child {
   color: #64ffda;
-  word-spacing: 3px;
+  word-spacing: 1px;
   margin-bottom: 20px;
 }
 
@@ -11209,7 +11211,8 @@ header.scrolled {
 }
 
 #intro .actions a {
-  word-spacing: 5px;
+  word-spacing: 3px;
+  font-weight: 600;
   letter-spacing: 0.5px;
   padding: 15px 30px;
   font-size: 15px;
@@ -11296,7 +11299,7 @@ header.scrolled {
 }
 
 #experience .showPanel {
-  padding: 0 20px;
+  padding: 0 0 0 20px;
   display: none;
 }
 
@@ -11316,6 +11319,7 @@ header.scrolled {
 
 #experience .showPanel .experienceDate {
   color: #8892b0;
+  font-size: 13px;
 }
 
 #experience .showPanel ul {
@@ -11352,8 +11356,15 @@ header.scrolled {
 }
 
 #getInTouch p {
-  width: 50%;
+  width: 40%;
+  font-weight: 600;
   margin: 0 auto;
+}
+
+#getInTouch .dftButton {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 footer {
