@@ -1,0 +1,105 @@
+@media only screen and (max-width: 750px) {
+
+    .dftPadding { padding: 0 0 50px 0 }
+
+    #intro {
+
+        h1, h2 { font-size: 25px; }
+
+        p:last-of-type {
+
+            font-size: 14px;
+            width: 75%;
+
+        }
+
+        .actions a { font-size: 14px; }
+
+    }
+
+    .centerStage {
+
+        padding: 0;
+
+        .title {
+
+            text-align: center;
+
+            h3 {
+
+                padding: 0 10px;
+                font-size: 20px;
+                text-align: center;
+
+                span { display: none; }
+
+            }
+
+        }
+
+    }
+
+    #about {
+
+        .content {
+
+            padding: 0 15px;
+
+            p {
+
+                font-size: 14px;
+
+            }
+
+        }
+
+    }
+
+    #experience {
+
+        .switcher {
+
+            border-radius: 0;
+
+            ul li a { padding: 20px 15px; }
+
+        }
+
+        .showPanel {
+
+            padding: 0 15px;
+
+            p {
+
+                font-size: 14px;
+
+                &.experienceTitle {
+
+                    font-size: 18px;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    #getInTouch {
+
+        .centerStage { padding: 50px 0; }
+
+        h1 { font-size: 20px; }
+
+        p {
+
+            width: 75%;
+            font-size: 14px;
+
+        }
+
+        .actions a { font-size: 14px; }
+
+    }
+
+}

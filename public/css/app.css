@@ -11456,7 +11456,7 @@ footer {
   }
 
   #experience .switcher ul li a {
-    padding: 10px 15px;
+    padding: 15px;
     font-size: 14px;
     border-left: none;
   }
@@ -11465,6 +11465,89 @@ footer {
     background-color: #303C55;
     margin: 0;
     padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .dftPadding {
+    padding: 0 0 50px 0;
+  }
+
+  #intro h1,
+  #intro h2 {
+    font-size: 25px;
+  }
+
+  #intro p:last-of-type {
+    font-size: 14px;
+    width: 75%;
+  }
+
+  #intro .actions a {
+    font-size: 14px;
+  }
+
+  .centerStage {
+    padding: 0;
+  }
+
+  .centerStage .title {
+    text-align: center;
+  }
+
+  .centerStage .title h3 {
+    padding: 0 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .centerStage .title h3 span {
+    display: none;
+  }
+
+  #about .content {
+    padding: 0 15px;
+  }
+
+  #about .content p {
+    font-size: 14px;
+  }
+
+  #experience .switcher {
+    border-radius: 0;
+  }
+
+  #experience .switcher ul li a {
+    padding: 20px 15px;
+  }
+
+  #experience .showPanel {
+    padding: 0 15px;
+  }
+
+  #experience .showPanel p {
+    font-size: 14px;
+  }
+
+  #experience .showPanel p.experienceTitle {
+    font-size: 18px;
+  }
+
+  #getInTouch .centerStage {
+    padding: 50px 0;
+  }
+
+  #getInTouch h1 {
+    font-size: 20px;
+  }
+
+  #getInTouch p {
+    width: 75%;
+    font-size: 14px;
+  }
+
+  #getInTouch .actions a {
+    font-size: 14px;
   }
 }
 
