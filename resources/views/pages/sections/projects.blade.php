@@ -9,7 +9,7 @@
 
             <div class="uiRow">
 
-                <p class="text-center">Coming soon...</p>
+                <p class="text-center">Coming Soon</p>
             </div>
 
 
