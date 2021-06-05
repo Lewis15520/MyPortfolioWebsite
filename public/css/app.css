@@ -11378,6 +11378,12 @@ footer {
   }
 }
 
+@media only screen and (min-width: 1100px) {
+  .mobile-links {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1100px) {
   .sidebar {
     width: 0;
@@ -11399,6 +11405,29 @@ footer {
   #intro h1,
   #intro h2 {
     font-size: 50px;
+  }
+
+  #intro .mobile-links {
+    position: absolute;
+    bottom: 100px;
+  }
+
+  #intro .mobile-links ul {
+    display: table;
+    table-layout: fixed;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #intro .mobile-links ul li {
+    display: table-cell;
+  }
+
+  #intro .mobile-links ul li a {
+    display: block;
+    font-size: 24px;
+    color: #ccd6f6;
   }
 }
 
@@ -11471,6 +11500,10 @@ footer {
 @media only screen and (max-width: 750px) {
   .dftPadding {
     padding: 0 0 50px 0;
+  }
+
+  #intro .centerStage {
+    margin-bottom: 50px;
   }
 
   #intro h1,
