@@ -3,7 +3,8 @@
         <div class="centerStage">
             <p>Hi, my name is</p>
             <h1>Lewis Hayter.</h1>
-            <h2 id="typed">Senior web developer.</h2>
+            <h2 id="typed" class="desktop-text">Senior web developer.</h2>
+            <h2 class="mobile-text">Future Entrepreneur.</h2>
             <p>I'm a senior software developer based in Manchester, United Kingdom specialising in web system and architecture development of all kinds.</p>
             <div class="actions">
                 <a href="#" class="dftButton">Get In Touch</a>

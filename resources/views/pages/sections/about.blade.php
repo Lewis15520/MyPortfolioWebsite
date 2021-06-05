@@ -7,7 +7,7 @@
                 <div class="splitter"><span></span></div>
             </div>
 
-            <div class="uiRow">
+            <div class="uiRow content">
                 <div class="uiCol align-top">
                     <img src="{{ asset('images/IMG_8577.JPG') }}"/>
                 </div>

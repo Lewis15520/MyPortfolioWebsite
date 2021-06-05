@@ -1,0 +1,85 @@
+@media only screen and (min-width: 950px) {
+
+    .mobile-text { display: none; }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .desktop-text { display: none; }
+
+    .centerStage .title { margin-bottom: 25px; }
+
+    #intro {
+
+        text-align: center;
+
+        p { margin: 0 auto; }
+
+    }
+
+    #about {
+
+        .content {
+
+            > .uiCol { display: block; }
+
+        }
+
+        img { display: none; }
+
+    }
+
+    #experience {
+
+        .content {
+
+            > .uiCol { display: block; }
+
+        }
+
+        .showPanel { padding: 0; }
+
+        .switcher {
+
+            background-color: $lightestNavy;
+            border-radius: 5px;
+            width: 100%;
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,1);
+            -moz-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,1);
+            box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,1);
+
+            ul {
+
+                li {
+
+                    display: inline-block;
+
+                    a {
+
+                        padding: 10px 15px;
+                        font-size: 14px;
+                        border-left: none;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    footer {
+
+        background-color: $lightestNavy;
+        margin: 0;
+        padding: 50px 0;
+
+    }
+
+}

@@ -7,7 +7,7 @@
                 <div class="splitter"><span></span></div>
             </div>
 
-            <div class="uiRow">
+            <div class="uiRow content">
                 <div class="uiCol switcher align-top">
                     <ul>
                         <li><a id="intellicentrics" class="experienceItem active">Intellicentrics</a></li>

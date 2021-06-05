@@ -26,3 +26,9 @@ $grid-gutter-width: 10px !default;
 'pages/experience',
 'pages/get_in_touch',
 'pages/footer';
+
+// Import mobile views
+@import
+'mobile/oversized',
+'mobile/1100',
+'mobile/950';
